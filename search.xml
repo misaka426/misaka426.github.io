@@ -3,9 +3,12 @@
   <entry>
     <title>readme</title>
     <url>/2020/07/07/readme/</url>
-    <content><![CDATA[<p>#写在前面</p>
-<p>一个不爱学习的人是没有未来的。</p>
+    <content><![CDATA[<h1 id="写在前面"><a href="#写在前面" class="headerlink" title="写在前面"></a>写在前面</h1><p><img src="/2020/07/07/readme/1.jpg" alt="题目"></p>
+<h3 id="所爱隔山海，山海皆可移"><a href="#所爱隔山海，山海皆可移" class="headerlink" title="所爱隔山海，山海皆可移"></a>所爱隔山海，山海皆可移</h3><p><del>一个不爱学习的人是没有未来的。</del></p>
 ]]></content>
+      <tags>
+        <tag>碎碎念</tag>
+      </tags>
   </entry>
   <entry>
     <title>1470.重新排序数组</title>
