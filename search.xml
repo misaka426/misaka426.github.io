@@ -6,9 +6,9 @@
     <content><![CDATA[<h1 id="写在前面"><a href="#写在前面" class="headerlink" title="写在前面"></a>写在前面</h1><p><img src="/2020/07/07/readme/1.jpg" alt="题目"></p>
 <h3 id="所爱隔山海，山海皆可移"><a href="#所爱隔山海，山海皆可移" class="headerlink" title="所爱隔山海，山海皆可移"></a>所爱隔山海，山海皆可移</h3><p><del>一个不爱学习的人是没有未来的。</del></p>
 ]]></content>
-      <tags>
-        <tag>碎碎念</tag>
-      </tags>
+      <categories>
+        <category>碎碎念</category>
+      </categories>
   </entry>
   <entry>
     <title>1470.重新排序数组</title>
@@ -19,8 +19,11 @@
 
 <hr>
 ]]></content>
+      <categories>
+        <category>简单</category>
+      </categories>
       <tags>
-        <tag>简单</tag>
+        <tag>数组</tag>
       </tags>
   </entry>
   <entry>
@@ -46,8 +49,11 @@
 <h5 id="2-计算汉明距离"><a href="#2-计算汉明距离" class="headerlink" title="2.计算汉明距离"></a>2.计算汉明距离</h5><p>对两个字符串进行异或运算，并统计结果为1的个数，那么这个数就是汉明距离</p>
 <figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Solution</span><span class="params">(object)</span>:</span></span><br><span class="line">    <span class="function"><span class="keyword">def</span> <span class="title">hammingDistance</span><span class="params">(self, x, y)</span>:</span></span><br><span class="line">        <span class="string">"""</span></span><br><span class="line"><span class="string">        :type x: int</span></span><br><span class="line"><span class="string">        :type y: int</span></span><br><span class="line"><span class="string">        :rtype: int</span></span><br><span class="line"><span class="string">        """</span></span><br><span class="line">        <span class="keyword">return</span> bin(x^y).count(<span class="string">'1'</span>)</span><br></pre></td></tr></table></figure></blockquote>
 ]]></content>
+      <categories>
+        <category>简单</category>
+      </categories>
       <tags>
-        <tag>简单，异或操作</tag>
+        <tag>异或操作</tag>
       </tags>
   </entry>
   <entry>
@@ -64,8 +70,8 @@
 <p>剩下的就是最普通用的情况了：此时要注意，range(0,k)的范围是0~k-1，所以是k+1</p>
 </blockquote>
 ]]></content>
-      <tags>
-        <tag>简单</tag>
-      </tags>
+      <categories>
+        <category>简单</category>
+      </categories>
   </entry>
 </search>
