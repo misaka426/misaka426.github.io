@@ -110,12 +110,25 @@
   <entry>
     <title>宫墙柳读后有感</title>
     <url>/2020/07/12/%E5%AE%AB%E5%A2%99%E6%9F%B3%E8%AF%BB%E5%90%8E%E6%9C%89%E6%84%9F/</url>
-    <content><![CDATA[]]></content>
+    <content><![CDATA[<h1 id="宫墙柳"><a href="#宫墙柳" class="headerlink" title="宫墙柳"></a>宫墙柳</h1><p>看完了感觉很不好受，想写一些什么但是又不知道该怎么下笔。</p>
+]]></content>
+      <tags>
+        <tag>观后感</tag>
+      </tags>
   </entry>
   <entry>
     <title>计算机网络</title>
     <url>/2020/07/17/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/</url>
-    <content><![CDATA[]]></content>
+    <content><![CDATA[<h1 id="计算机网络"><a href="#计算机网络" class="headerlink" title="计算机网络"></a>计算机网络</h1><p>听说计网是软件考研必考科目，但是我学的很垃圾，于是想记录我的学习旅程。</p>
+<hr>
+<p>考完试了，我是垃圾</p>
+]]></content>
+      <categories>
+        <category>总结</category>
+      </categories>
+      <tags>
+        <tag>计网</tag>
+      </tags>
   </entry>
   <entry>
     <title>二叉树的最大深度</title>
@@ -145,6 +158,12 @@
     <title>二叉树展开为链表</title>
     <url>/2020/08/02/%E4%BA%8C%E5%8F%89%E6%A0%91%E5%B1%95%E5%BC%80%E4%B8%BA%E9%93%BE%E8%A1%A8/</url>
     <content><![CDATA[]]></content>
+      <categories>
+        <category>中等</category>
+      </categories>
+      <tags>
+        <tag>二叉树</tag>
+      </tags>
   </entry>
   <entry>
     <title>一生之痛--二叉树</title>
