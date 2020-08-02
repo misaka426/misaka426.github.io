@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2020-08-02T10:51:55.034Z</updated>
+  <updated>2020-08-02T13:40:46.987Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>一生之痛--二叉树</title>
+    <link href="http://yoursite.com/2020/08/02/%E4%B8%80%E7%94%9F%E4%B9%8B%E7%97%9B-%E4%BA%8C%E5%8F%89%E6%A0%91/"/>
+    <id>http://yoursite.com/2020/08/02/%E4%B8%80%E7%94%9F%E4%B9%8B%E7%97%9B-%E4%BA%8C%E5%8F%89%E6%A0%91/</id>
+    <published>2020-08-02T12:48:37.000Z</published>
+    <updated>2020-08-02T13:40:46.987Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;一生之痛——二叉树&quot;&gt;&lt;a href=&quot;#一生之痛——二叉树&quot; class=&quot;headerlink&quot; title=&quot;一生之痛——二叉树&quot;&gt;&lt;/a&gt;一生之痛——二叉树&lt;/h1&gt;&lt;h2 id=&quot;定义&quot;&gt;&lt;a href=&quot;#定义&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+    
+      <category term="总结" scheme="http://yoursite.com/categories/%E6%80%BB%E7%BB%93/"/>
+    
+    
+      <category term="二叉树" scheme="http://yoursite.com/tags/%E4%BA%8C%E5%8F%89%E6%A0%91/"/>
+    
+  </entry>
   
   <entry>
     <title>二叉树展开为链表</title>

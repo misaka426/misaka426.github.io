@@ -146,4 +146,28 @@
     <url>/2020/08/02/%E4%BA%8C%E5%8F%89%E6%A0%91%E5%B1%95%E5%BC%80%E4%B8%BA%E9%93%BE%E8%A1%A8/</url>
     <content><![CDATA[]]></content>
   </entry>
+  <entry>
+    <title>一生之痛--二叉树</title>
+    <url>/2020/08/02/%E4%B8%80%E7%94%9F%E4%B9%8B%E7%97%9B-%E4%BA%8C%E5%8F%89%E6%A0%91/</url>
+    <content><![CDATA[<h1 id="一生之痛——二叉树"><a href="#一生之痛——二叉树" class="headerlink" title="一生之痛——二叉树"></a>一生之痛——二叉树</h1><h2 id="定义"><a href="#定义" class="headerlink" title="定义"></a>定义</h2><p>二叉树是指树中节点的度不大于2的有序树，它是一种最简单且最重要的树。二叉树的递归定义为：二叉树是一棵空树，或者是一棵由一个根节点和两棵互不相交的，分别称作根的左子树和右子树组成的非空树；左子树和右子树又同样都是二叉树。</p>
+<hr>
+<h2 id="概念"><a href="#概念" class="headerlink" title="概念"></a>概念</h2><p>*<em>结点 *</em></p>
+<p><strong>结点的度</strong>：一个结点拥有子树的数目称为结点的度</p>
+<p><strong>叶子结点</strong>：也称为<strong>终端结点</strong>，没有子树的结点即度为零的结点</p>
+<p><strong>分支结点</strong>：也称为<strong>非终端结点</strong>，度不为零的结点称为非终端结点</p>
+<p><strong>树的度</strong>：树中所有结点的度的最大值</p>
+<p><strong>树的深度</strong>：也称为<strong>树的高度</strong>，树中所有结点的层次最大值称为树的深度</p>
+<hr>
+<h2 id="代码显示（C-演示）"><a href="#代码显示（C-演示）" class="headerlink" title="代码显示（C++演示）"></a>代码显示（C++演示）</h2><h3 id="定义-1"><a href="#定义-1" class="headerlink" title="定义"></a>定义</h3><figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="keyword">typedef</span> <span class="class"><span class="keyword">struct</span> <span class="title">BiTNode</span>&#123;</span></span><br><span class="line">    TElemType data;<span class="comment">//数据</span></span><br><span class="line">    <span class="class"><span class="keyword">struct</span> <span class="title">BiTNode</span> *<span class="title">lchild</span>, *<span class="title">rchild</span>;</span><span class="comment">//左右孩子指针</span></span><br><span class="line">&#125; bt, *bt;</span><br></pre></td></tr></table></figure>
+<hr>
+<h3 id="二叉树遍历"><a href="#二叉树遍历" class="headerlink" title="二叉树遍历"></a>二叉树遍历</h3><h4 id="前序遍历"><a href="#前序遍历" class="headerlink" title="前序遍历"></a>前序遍历</h4><figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">PreOrder</span><span class="params">(BiNode *bt)</span><span class="comment">//形参为结构体类型的指针</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	<span class="keyword">if</span>(bt==<span class="literal">NULL</span>)</span><br><span class="line">		<span class="keyword">return</span>;<span class="comment">//递归调用的结束条件</span></span><br><span class="line">	<span class="keyword">else</span>&#123;</span><br><span class="line">		<span class="built_in">cout</span> &lt;&lt; bt-&gt;data;<span class="comment">//访问根结点的data值</span></span><br><span class="line">		PreOrder(bt-&gt;lchild);<span class="comment">//前序递归遍历bt左子树</span></span><br><span class="line">		PreOrder(bt-&gt;rchild);<span class="comment">//前序递归遍历bt右子树</span></span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h3 id="中序遍历"><a href="#中序遍历" class="headerlink" title="中序遍历"></a>中序遍历</h3><figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">IneOrder</span><span class="params">(BiNode *bt)</span><span class="comment">//形参为结构体类型的指针</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	<span class="keyword">if</span>(bt==<span class="literal">NULL</span>)</span><br><span class="line">		<span class="keyword">return</span>;<span class="comment">//递归调用的结束条件</span></span><br><span class="line">	<span class="keyword">else</span>&#123;</span><br><span class="line">		InOrder(bt-&gt;lchild);<span class="comment">//中序递归遍历bt左子树</span></span><br><span class="line">		<span class="built_in">cout</span> &lt;&lt; bt-&gt;data;<span class="comment">//访问根结点的data值</span></span><br><span class="line">		InOrder(bt-&gt;rchild);<span class="comment">//中序递归遍历bt右子树</span></span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h3 id="后序遍历"><a href="#后序遍历" class="headerlink" title="后序遍历"></a>后序遍历</h3><figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">IneOrder</span><span class="params">(BiNode *bt)</span><span class="comment">//形参为结构体类型的指针</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	<span class="keyword">if</span>(bt==<span class="literal">NULL</span>)</span><br><span class="line">		<span class="keyword">return</span>;<span class="comment">//递归调用的结束条件</span></span><br><span class="line">	<span class="keyword">else</span>&#123;</span><br><span class="line">		InOrder(bt-&gt;lchild);<span class="comment">//中序递归遍历bt左子树</span></span><br><span class="line">		InOrder(bt-&gt;rchild);<span class="comment">//中序递归遍历bt右子树</span></span><br><span class="line">		<span class="built_in">cout</span> &lt;&lt; bt-&gt;data;<span class="comment">//访问根结点的data值</span></span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
+      <categories>
+        <category>总结</category>
+      </categories>
+      <tags>
+        <tag>二叉树</tag>
+      </tags>
+  </entry>
 </search>
